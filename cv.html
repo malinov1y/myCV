@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cv.css">
+        <title>CV</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__menu">
+                <ul class="header__menu-items">
+                    <li class="header__menu-item"><a href="#contact" class="header__menu-link">Contact</a></li>
+                    <li class="header__menu-item"><a href="#about" class="header__menu-link">Summary</a></li>
+                    <li class="header__menu-item"><a href="#skill" class="header__menu-link">Skills</a></li>
+                    <li class="header__menu-item"><a href="#studies" class="header__menu-link">Education</a></li>
+                    <li class="header__menu-item"><a href="#project" class="header__menu-link">Projects</a></li>
+                </ul>
+            </nav>
+            <figure class="header__photo">
+                <img src="assets/img/photo.jpg" alt="My photo" class="header__photo-img">
+            </figure>
+            <div class="header__name">
+                <h1 class="header__title">Malinovsky Nikita</h1>
+                <p class="header__subtitle">Frontend student</p>
+                <hr class="header__divider">
+            </div>
+        </header>
+        <main class="main">
+            <div class="left-column">
+                <section class="contacts" id="contact">
+                    <h2 class="contacts__title">Contact</h2>
+                    <div class="contacts__menu">
+                        <p class="contacts__menu-item"><strong>Email:</strong> nikitamalinovsky3@gmail.com</p>
+                        <p class="contacts__menu-item"><strong>GitHub:</strong> malinov1y</p>
+                        <p class="contacts__menu-item"><strong>Discord:</strong> Nikita (@malinov1y)</p>
+                        <p class="contacts__menu-item"><strong>Telegram:</strong> @malinov1y</p>
+                    </div>
+                </section>
+                <section class="skills" id="skill">
+                    <h2 class="skills__title">Skills</h2>
+                    <ul class="skill__items">
+                        <li class="skill__item">HTML</li>
+                        <li class="skill__item">CSS/SCSS</li>
+                        <li class="skill__item">JavaScript/TypeScript</li>
+                        <li class="skill__item">Principles OOP, SOLID, DRY/KISS/YAGNI</li>
+                        <li class="skill__item">Git/GitHub</li>
+                        <li class="skill__item">C#</li>
+                    </ul>
+                </section>
+                <section class="english">
+                    <h2 class="english__title">English</h2>
+                    <p class="english__description">My English level - A2</p>
+                </section>
+            </div>
+            <div class="right-column">
+                <section class="summary" id="about">
+                    <h2 class="summary__title">Summary</h2>
+                    <p class="summary__description">I am a third-year university student. I am interested in developing
+                        in the field of web development.
+                        I believe my strengths are persistence and the ability to learn new things
+                        independently.
+                        I believe that my desire for learning helps me achieve goals and overcome
+                        challenges.
+                        My goal is to learn to create useful and high-quality web projects.
+                    </p>
+                </section>
+                <section class="education" id="studies">
+                    <h2 class="education__title">Education</h2>
+                    <p class="education__text">University: Polotsk State University
+                        (Faculty of Information Technology)</p>
+                </section>
+                <section class="projects" id="project">
+                    <h2 class="projects__title">My projects</h2>
+                    <div class="projects__item">
+                        <p class="projects__name">Nonograms game</p>
+                        <a href="https://malinov1y.github.io/nonograms-game/nonograms/" target="_blank" class="project__link">
+                            <img src="./assets/img/nonograms.png" alt="nonograms_game" class="project__img">
+                        </a>
+                    </div>
+                    <div class="projects__item">
+                    <p class="projects__name">Christmas-shop website</p>
+                        <a href="https://malinov1y.github.io/christmas-shop/christmas-shop/pages/home/home.html" target="_blank" class="project__link">
+                            <img src="./assets/img/website.png" alt="nonograms_game" class="project__img">
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; 2024 Malinovsky Nikita</p>
+            <a href="https://github.com/malinov1y" target="_blank" class="footer__link">
+                <img src="assets/svg/github.svg" alt="github_logo" class="footer__logo">
+            </a>
+        </footer>
+    </body>
+</html>
